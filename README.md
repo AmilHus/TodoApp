@@ -14,4 +14,4 @@ TodoApp is a simple task management application built with Swift and CoreData. I
 - Swift
 - UIKit
 - CoreData
-- MVC Architecture
+- MVVM Architecture
