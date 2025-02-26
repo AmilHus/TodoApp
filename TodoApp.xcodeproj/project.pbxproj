@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D39A14C02D6C435C00D844F2 /* Exceptions for "TodoApp" folder in "TodoApp" target */ = {
+		D39A14D92D6DC55F00D844F2 /* Exceptions for "TodoApp" folder in "TodoApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -43,19 +43,9 @@
 		D39A14972D6C435A00D844F2 /* TodoApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				D39A14C02D6C435C00D844F2 /* Exceptions for "TodoApp" folder in "TodoApp" target */,
+				D39A14D92D6DC55F00D844F2 /* Exceptions for "TodoApp" folder in "TodoApp" target */,
 			);
 			path = TodoApp;
-			sourceTree = "<group>";
-		};
-		D39A14B12D6C435C00D844F2 /* TodoAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TodoAppTests;
-			sourceTree = "<group>";
-		};
-		D39A14BB2D6C435C00D844F2 /* TodoAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TodoAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				D39A14972D6C435A00D844F2 /* TodoApp */,
-				D39A14B12D6C435C00D844F2 /* TodoAppTests */,
-				D39A14BB2D6C435C00D844F2 /* TodoAppUITests */,
 				D39A14962D6C435A00D844F2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				D39A14B02D6C435C00D844F2 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				D39A14B12D6C435C00D844F2 /* TodoAppTests */,
-			);
 			name = TodoAppTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				D39A14BA2D6C435C00D844F2 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				D39A14BB2D6C435C00D844F2 /* TodoAppUITests */,
 			);
 			name = TodoAppUITests;
 			packageProductDependencies = (
@@ -294,7 +276,6 @@
 				INFOPLIST_FILE = TodoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +303,6 @@
 				INFOPLIST_FILE = TodoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
