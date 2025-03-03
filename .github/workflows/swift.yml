@@ -17,4 +17,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build
-      run: xcodebuild -scheme MyApp -sdk iphoneos -configuration Release build
+      run: xcodebuild -scheme WeatherApp -sdk iphoneos -configuration Release build
