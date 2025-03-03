@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		D39A14AF2D6C435C00D844F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D39A148D2D6C435900D844F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D39A14942D6C435A00D844F2;
-			remoteInfo = TodoApp;
-		};
-		D39A14B92D6C435C00D844F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D39A148D2D6C435900D844F2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D39A14942D6C435A00D844F2;
-			remoteInfo = TodoApp;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		D39A14952D6C435A00D844F2 /* TodoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D39A14AE2D6C435C00D844F2 /* TodoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D39A14B82D6C435C00D844F2 /* TodoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -58,20 +39,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D39A14AB2D6C435C00D844F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D39A14B52D6C435C00D844F2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -87,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				D39A14952D6C435A00D844F2 /* TodoApp.app */,
-				D39A14AE2D6C435C00D844F2 /* TodoAppTests.xctest */,
-				D39A14B82D6C435C00D844F2 /* TodoAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,46 +83,6 @@
 			productReference = D39A14952D6C435A00D844F2 /* TodoApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D39A14AD2D6C435C00D844F2 /* TodoAppTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D39A14C62D6C435C00D844F2 /* Build configuration list for PBXNativeTarget "TodoAppTests" */;
-			buildPhases = (
-				D39A14AA2D6C435C00D844F2 /* Sources */,
-				D39A14AB2D6C435C00D844F2 /* Frameworks */,
-				D39A14AC2D6C435C00D844F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D39A14B02D6C435C00D844F2 /* PBXTargetDependency */,
-			);
-			name = TodoAppTests;
-			packageProductDependencies = (
-			);
-			productName = TodoAppTests;
-			productReference = D39A14AE2D6C435C00D844F2 /* TodoAppTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		D39A14B72D6C435C00D844F2 /* TodoAppUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D39A14C92D6C435C00D844F2 /* Build configuration list for PBXNativeTarget "TodoAppUITests" */;
-			buildPhases = (
-				D39A14B42D6C435C00D844F2 /* Sources */,
-				D39A14B52D6C435C00D844F2 /* Frameworks */,
-				D39A14B62D6C435C00D844F2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D39A14BA2D6C435C00D844F2 /* PBXTargetDependency */,
-			);
-			name = TodoAppUITests;
-			packageProductDependencies = (
-			);
-			productName = TodoAppUITests;
-			productReference = D39A14B82D6C435C00D844F2 /* TodoAppUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -170,14 +95,6 @@
 				TargetAttributes = {
 					D39A14942D6C435A00D844F2 = {
 						CreatedOnToolsVersion = 16.1;
-					};
-					D39A14AD2D6C435C00D844F2 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = D39A14942D6C435A00D844F2;
-					};
-					D39A14B72D6C435C00D844F2 = {
-						CreatedOnToolsVersion = 16.1;
-						TestTargetID = D39A14942D6C435A00D844F2;
 					};
 				};
 			};
@@ -196,28 +113,12 @@
 			projectRoot = "";
 			targets = (
 				D39A14942D6C435A00D844F2 /* TodoApp */,
-				D39A14AD2D6C435C00D844F2 /* TodoAppTests */,
-				D39A14B72D6C435C00D844F2 /* TodoAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D39A14932D6C435A00D844F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D39A14AC2D6C435C00D844F2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D39A14B62D6C435C00D844F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -234,34 +135,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D39A14AA2D6C435C00D844F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D39A14B42D6C435C00D844F2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D39A14B02D6C435C00D844F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D39A14942D6C435A00D844F2 /* TodoApp */;
-			targetProxy = D39A14AF2D6C435C00D844F2 /* PBXContainerItemProxy */;
-		};
-		D39A14BA2D6C435C00D844F2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D39A14942D6C435A00D844F2 /* TodoApp */;
-			targetProxy = D39A14B92D6C435C00D844F2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D39A14C22D6C435C00D844F2 /* Debug */ = {
@@ -269,9 +143,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2GFJX3Q528;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TodoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -285,6 +159,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = amil.TodoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -296,9 +171,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2GFJX3Q528;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TodoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -312,6 +187,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = amil.TodoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -437,78 +313,6 @@
 			};
 			name = Release;
 		};
-		D39A14C72D6C435C00D844F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2GFJX3Q528;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = amil.TodoAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TodoApp";
-			};
-			name = Debug;
-		};
-		D39A14C82D6C435C00D844F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2GFJX3Q528;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = amil.TodoAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TodoApp";
-			};
-			name = Release;
-		};
-		D39A14CA2D6C435C00D844F2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2GFJX3Q528;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = amil.TodoAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TodoApp;
-			};
-			name = Debug;
-		};
-		D39A14CB2D6C435C00D844F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2GFJX3Q528;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = amil.TodoAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TodoApp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -526,24 +330,6 @@
 			buildConfigurations = (
 				D39A14C22D6C435C00D844F2 /* Debug */,
 				D39A14C32D6C435C00D844F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D39A14C62D6C435C00D844F2 /* Build configuration list for PBXNativeTarget "TodoAppTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D39A14C72D6C435C00D844F2 /* Debug */,
-				D39A14C82D6C435C00D844F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D39A14C92D6C435C00D844F2 /* Build configuration list for PBXNativeTarget "TodoAppUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D39A14CA2D6C435C00D844F2 /* Debug */,
-				D39A14CB2D6C435C00D844F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
